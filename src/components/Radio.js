@@ -10,7 +10,6 @@ class Radio extends Component {
   }
 
   onChange(type) {
-    console.log('TYPE', type);
     // on radio state change handler
     this.setState({ radioClick: type });
     this.props.sortBy(type);
